@@ -1,1 +1,1 @@
-# SoMe
+# SoMedia.github.io
