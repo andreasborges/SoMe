@@ -13,7 +13,7 @@ input[type=text], input[type=password] {
 /* Set a style for all buttons */
 button {
   background-color: #4CAF50;
-  color: white;
+  color: #f4f4f4;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -22,7 +22,7 @@ button {
 }
 
 button:hover {
-  opacity: ;
+  opacity: 0.8;
 }
 
 /* Extra styles for the cancel button */
