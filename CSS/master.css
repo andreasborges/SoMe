@@ -11,23 +11,67 @@ a{
   color: #000
 }
 
+/* id */
+
+  /* header */
 #header{
   background-color: #333;
   color: #333;
+  width: 100%;
 }
 
 #header a{
-  color: #fff
+  color: #f4f4f4
 }
 
-#
+#headerWidth{
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
 
-#copy{
+#navbarWidth{
+  float: right;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+#navbar{
+  display: inline;
+  text-align: left;
+  width: 30%;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: #f4f4f4;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
+}
+
+  /* footer */
+#footer{
+  background: #333;
+  color: #f4f4f4;
+  padding: 20px 50px;
+  margin-top: 40px;
+}
+
+#copyright{
   font-size: 10px;
 }
 
 #footerList a{
-  color: #fff;
+  color: #f4f4f4;
   font-size: 13px;
 }
 
@@ -35,13 +79,25 @@ a{
   font-size: 16px;
 }
 
-#footer{
-  background: #333;
-  color: #fff;
-  text-align: left;
-  padding: 20px 50px;
-  margin-top: 40px;
+#block1{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
 }
+
+#block2{
+  float: left;
+  width: 25%;
+  padding: 0 30px 0 50px;
+  line-height: 2em;
+  box-sizing: border-box;
+}
+
+
+
+
+/* classes */
 
 .container{
   width: 90%;
@@ -51,20 +107,4 @@ a{
 
 .container div{
   margin: 2em;
-}
-
-
-.block1{
-  float: left;
-  width: 50%;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.block2{
-  float: left;
-  width: 25%;
-  padding: 0 30px 0 50px;
-  line-height: 2em;
-  box-sizing: border-box;
 }
