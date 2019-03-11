@@ -16,9 +16,14 @@ body{
   text-decoration: none;
 }
 
+#navbar{
+
+}
+
 #navbar ul{
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
 #navbar li{
@@ -71,15 +76,19 @@ body{
 
 .block1{
   float: left;
-  width: 60%;
+  width: 50%;
+  height: 90px;
   padding: 10px;
   box-sizing: border-box;
+  border: 1px solid red
 }
 
 .block2{
   float: right;
-  width: 40%;
+  width: 50%;
+  height: 90px;
   box-sizing: border-box;
+  border: 1px solid blue
 }
 
 #copyright{
