@@ -5,7 +5,7 @@ var EndState = State.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Game} game manager for the state
 	 */
 	init: function(game) {
@@ -18,10 +18,9 @@ var EndState = State.extend({
 		// arbitrary hiscore array
 		// TODO: implement real hiscore saving with PHP or something
 		this.hisores = [
-			["the doctor", 2000],
-			["son goku", 9999],
-			["noname", 3000],
-			["narsil", 10000]
+			["The Doctor", 10000],
+			["Google", 9928],
+			["Mr. Borges", 2300],
 		];
 
 		// get and init inputfiled from DOM
@@ -78,7 +77,7 @@ var EndState = State.extend({
 
 	/**
 	 * @override State.render
-	 * 
+	 *
 	 * @param  {context2d} ctx augmented drawing context
 	 */
 	render: function(ctx) {
