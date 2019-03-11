@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SoMedia Space Invaders</title>
+
+    <script scr="Script-Rasmus/hjælpefunktioner.js"></script>
+
+    <style>
+      canvas {
+        background-color: #000;
+        display: block;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <script>
+
+      var screen, input, frames;
+      var alSprite, taSprite, ciSprite;
+      var aliens, dir, tank, bullets, cities;
+
+      function main() {
+        screen = new Screen(510, 600);
+        input = new InputHandeler();
+
+        var img = new Image();
+        img.addEventListener("load", function() {
+          alSprite = [ <!---al = aliens-->
+            [new Sprite(this, 0, 0, 22, 16<!--- pixels --->), new sprite(this, 0, 16, 22, 16)],
+            [new Sprite(this, 22, 0, 16, 16), new sprite(this, 22, 16, 16, 16)],
+            [new Sprite(this, 38, 0, 25, 16), new sprite(this, 38, 16, 24, 16)]
+          ];
+          taSprite = new Sprite(this);
+          ciSprite = new Sprite(this);
+
+          init();
+          run();
+        })
+        img.src = "xxx"
+      };
+
+      function init() {};
+
+      function run() {};
+        var loop = function(){
+          update();
+          render();
+
+          window.requestAnimationFrame(loop, screen.canvas);
+        };
+        window.requestAnimationFrame(loop, screen.canvas);
+      };
+      function update() {};
+
+      function render() {
+        screen.drawSprite(alSprite[2][0], 10, 10);
+      };
+
+
+      main()
+
+    </script>
+
+  </body>
+</html>
