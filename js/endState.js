@@ -20,7 +20,7 @@ var EndState = State.extend({
 		this.hisores = [
 			["The Doctor", 10000],
 			["Google", 9928],
-			["Mr. Borges", 2300],
+			["Mr Borges", 2300],
 		];
 
 		// get and init inputfiled from DOM
