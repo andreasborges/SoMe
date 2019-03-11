@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * Global object containing all verticies for the game graphics,
  * see. polygondraw.html
@@ -14,7 +15,7 @@ var Points = {
 
 	SHIP:   [6,0,-3,-3,-2,0,-3,3,6,0],
 	FLAMES: [-2,0,-3,-1,-5,0,-3,1,-2,0],
-	
+
 	LETTERS: [
 		[0,6,0,2,2,0,4,2,4,4,0,4,4,4,4,6],                 //A
 		[0,3,0,6,2,6,3,5,3,4,2,3,0,3,0,0,2,0,3,1,3,2,2,3], //B

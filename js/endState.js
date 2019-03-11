@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * EndState class, called when game is over
  */

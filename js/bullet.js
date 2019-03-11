@@ -1,4 +1,4 @@
-/**
+<!--Copyright SoMedia OSAR, Niels Brock-->/**
  * Bullet class, nothing fancy ^_^
  */
 var Bullet = Class.extend({
@@ -11,7 +11,7 @@ var Bullet = Class.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {number} x     start x coordinate
 	 * @param  {number} y     start y coordinate
 	 * @param  {number} angle direction in which to fire
@@ -51,7 +51,7 @@ var Bullet = Class.extend({
 
 	/**
 	 * Draw the bullet to an augmented drawing context
-	 * 
+	 *
 	 * @param  {context2d} ctx agumented drawing context
 	 */
 	draw: function(ctx) {

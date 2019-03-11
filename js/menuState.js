@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * MenuState class, set on game start
  */
@@ -5,7 +6,7 @@ var MenuState = State.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Game} game manager for the state
 	 */
 	init: function(game) {
@@ -40,7 +41,7 @@ var MenuState = State.extend({
 
 	/**
 	 * @override State.handleInputs
-	 * 
+	 *
 	 * @param  {InputHandeler} input keeps track of all pressed keys
 	 */
 	handleInputs: function(input) {
@@ -61,7 +62,7 @@ var MenuState = State.extend({
 
 	/**
 	 * @override State.render
-	 * 
+	 *
 	 * @param  {context2d} ctx augmented drawing context
 	 */
 	render: function(ctx) {

@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * AsteroidSize constant, probably a bad place to declare it
  */
@@ -11,7 +12,7 @@ var GameState = State.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Game} game manager for the state
 	 */
 	init: function(game) {
@@ -28,7 +29,7 @@ var GameState = State.extend({
 
 		// score and lives variables
 		this.lives = 3;
-		
+
 		this.gameOver = false;
 
 		this.score = 0;
@@ -81,7 +82,7 @@ var GameState = State.extend({
 
 	/**
 	 * @override State.handleInputs
-	 * 
+	 *
 	 * @param  {InputHandeler} input keeps track of all pressed keys
 	 */
 	handleInputs: function(input) {
@@ -141,7 +142,7 @@ var GameState = State.extend({
 			// check if bullets hits the current asteroid
 			for (var j = 0, len2 = this.bullets.length; j < len2; j++) {
 				var b = this.bullets[j];
-				
+
 				if (a.hasPoint(b.x, b.y)) {
 					this.bullets.splice(j, 1);
 					len2--;
@@ -205,7 +206,7 @@ var GameState = State.extend({
 
 	/**
 	 * @override State.render
-	 * 
+	 *
 	 * @param  {context2d} ctx augmented drawing context
 	 */
 	render: function(ctx) {

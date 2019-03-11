@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * Asteroid class, extends Polygon see polygon.js
  */
@@ -11,7 +12,7 @@ var Asteroid = Polygon.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Array<number>} p list of verticies
 	 * @param  {number}        s scalefactor, size of asteroid
 	 * @param  {number}        x start x coordinate
@@ -43,11 +44,11 @@ var Asteroid = Polygon.extend({
 	/**
 	 * Useful point in polygon check, taken from:
 	 * http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
-	 * 
+	 *
 	 * @param  {number}  x test x coordinate
 	 * @param  {number}  y test y coordinate
 	 * @return {Boolean}   result from check
-	 * 
+	 *
 	 * @override Polygon.hasPoint
 	 */
 	hasPoint: function(x, y) {
@@ -73,13 +74,13 @@ var Asteroid = Polygon.extend({
 		}else if (this.y < 0) {
 			this.y = this.maxY;
 		}
-		// rotate asteroids 
+		// rotate asteroids
 		this.rotate(this.rotAngle);
 	},
 
 	/**
 	 * Draw the asteroid with an augmented drawing context
-	 * 
+	 *
 	 * @param  {context2d} ctx augmented drawing conext
 	 */
 	draw: function(ctx) {

@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * Canvas class, meant to make life easier by abstracting out
  * rendering and animation code
@@ -6,7 +7,7 @@ var Canvas = Class.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {number} width  width of the canvas
 	 * @param  {number} height height of the canvas
 	 */
@@ -29,7 +30,7 @@ var Canvas = Class.extend({
 
 			/**
 			 * Draws a polygon object
-			 * 
+			 *
 			 * @param  {Polygon} p the polygon to draw
 			 * @param  {number}  x the x coordinate
 			 * @param  {number}  y draw y coordinate
@@ -108,7 +109,7 @@ var Canvas = Class.extend({
 					this.moveTo(p[0]*s + x, p[1]*s + y);
 					for (var j = 2, len2 = p.length; j < len2; j += 2) {
 						this.lineTo(p[j]*s + x, p[j + 1]*s + y);
-					}	
+					}
 					this.stroke();
 
 					// increase with stepsize after each character
@@ -133,7 +134,7 @@ var Canvas = Class.extend({
 
 	/**
 	 * Wrapper around window.requestAnimationFrame (rAF)
-	 * 
+	 *
 	 * @param  {function} loop the function to animate
 	 */
 	animate: function(loop) {

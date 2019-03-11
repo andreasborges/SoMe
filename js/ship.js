@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * Ship class, extends Polygon see polygon.js
  */
@@ -11,7 +12,7 @@ var Ship = Polygon.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Array<number>} p  list of ship verticies
 	 * @param  {Array<number>} pf list of flames verticies
 	 * @param  {number}        s  scalefactor, size of ship
@@ -48,7 +49,7 @@ var Ship = Polygon.extend({
 
 	/**
 	 * Returns whether ship is colling with asteroid
-	 * 
+	 *
 	 * @param  {Asteroid} astr asteroid to test
 	 * @return {Boolean}       result from test
 	 */
@@ -71,7 +72,7 @@ var Ship = Polygon.extend({
 	/**
 	 * Create and return bullet with arguments from current
 	 * direction and position
-	 * 
+	 *
 	 * @return {Bullet} the initated bullet
 	 */
 	shoot: function() {
@@ -98,7 +99,7 @@ var Ship = Polygon.extend({
 
 	/**
 	 * Rotate the ship and flame polygon clockwise
-	 * 
+	 *
 	 * @param  {number} theta angle to rotate with
 	 *
 	 * @override Polygon.rotate
@@ -135,7 +136,7 @@ var Ship = Polygon.extend({
 
 	/**
 	 * Draw the ship with an augmented drawing context
-	 * 
+	 *
 	 * @param  {context2d} ctx augmented drawing context
 	 */
 	draw: function(ctx) {

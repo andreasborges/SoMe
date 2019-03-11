@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * Polygon class, simple polygon class with method as rotation and
  * scaling
@@ -6,7 +7,7 @@ var Polygon = Class.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {Array<number>} p list of verticies
 	 */
 	init: function(p) {
@@ -16,7 +17,7 @@ var Polygon = Class.extend({
 
 	/**
 	 * Rotate the polygon clockwise
-	 * 
+	 *
 	 * @param  {number} theta angle to ratate with
 	 */
 	rotate: function(theta) {
@@ -37,7 +38,7 @@ var Polygon = Class.extend({
 
 	/**
 	 * Scale the polygon with the scalefactor
-	 * 
+	 *
 	 * @param  {number} c scalefactor
 	 */
 	scale: function(c) {

@@ -1,3 +1,4 @@
+<!--Copyright SoMedia OSAR, Niels Brock-->
 /**
  * InputHandeler class, listen for keypresses and keeps state of
  * monitored keys
@@ -6,7 +7,7 @@ var InputHandeler = Class.extend({
 
 	/**
 	 * Constructor
-	 * 
+	 *
 	 * @param  {object} keys keys to monitor
 	 */
 	init: function(keys) {
@@ -44,7 +45,7 @@ var InputHandeler = Class.extend({
 
 	/**
 	 * Tells if a monitored key is hold down
-	 * 
+	 *
 	 * @param  {string}  key name of monitored key
 	 * @return {Boolean}     result from check
 	 */
@@ -55,7 +56,7 @@ var InputHandeler = Class.extend({
 	/**
 	 * Tells if a monitored key is pressed, returns true first time
 	 * the key is pressed
-	 * 
+	 *
 	 * @param  {string}  key name of monitored key
 	 * @return {Boolean}     result from check
 	 */
