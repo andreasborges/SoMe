@@ -6,124 +6,24 @@
     <link rel="stylesheet" href="CSS/master.css">
     <link rel="stylesheet" href="CSS/login.css">
     <link rel="stylesheet" href="CSS/signup.css">
-
+    <link rel="innerHTML" href="/Script-Rasmus/loginside.html">
+    <link rel="innerHTML" href="/Script-Rasmus/signupform.html">
   </head>
   <body>
     <header id="header">
       <div class="container">
         <h1><a href="index.html">SoMedia</a></h1>
+      </div>
+    </header>
 
-        </div>
-        <nav id="navbar">
-          <div>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="pages/contact.html">Contact</a></li>
-
-              <!--- Log in --->
-              <li><button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button></li>
-              <div id="id01" class="modal">
-
-          	  	<form class="modal-content animate" action="/action_page.php">
-          	    	<div class="imgcontainer">
-          	      	<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-          	      	<img src="img_avatar2.png" alt="Avatar" class="avatar">
-          	    	</div>
-
-          	    	<div class="container">
-          	      	<label for="uname"><b>Username</b></label>
-          	      	<input type="text" placeholder="Enter Username" name="uname" required>
-
-          		      <label for="psw"><b>Password</b></label>
-          	      	<input type="password" placeholder="Enter Password" name="psw" required>
-
-          	      	<button type="submit">Login</button>
-          	      	<label>
-          	        	<input type="checkbox" checked="checked" name="remember"> Remember me
-          	      	</label>
-          	    	</div>
-
-          	    	<div class="container" style="background-color:#f1f1f1">
-          	      	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          	      	<span id="fuckingforgot" class="psw">Forgot <a href="https://SoMedia.github.io">password?</a></span>
-          	    	</div>
-          	  	</form>
-          		</div>
-
-              <script>
-
-              var modal = document.getElementById('id01');
-
-              window.onclick = function(event){
-                if (event.target == modal) {
-                  modal.style.display = "none";
-                }
-              }
-              </script>
-
-              <!--- Sign up --->
-              <li><button id="signupcolor" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button></li>
-
-              <div id="id02" class="modal">
-                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <form class="modal-content" action="/action_page.php">
-                  <div class="container">
-                  <h1>Register</h1>
-                  <p>Please fill in this form to create an account.</p>
-                  <hr>
-
-              		<label for="name"><b>First Name</b></label>
-              		<input type="text" placeholder="Enter First Name" name="name" required>
-
-              		<label for="surname"><b>Last Name</b></label>
-              		<input type="text" placeholder="Enter Last Name" name="surname" required>
-
-              		<label for="email"><b>Email</b></label>
-                  <input type="text" placeholder="Enter Email" name="email" required>
-
-              		<label for="gender"><b>Gender</b> <br> </label> <br>
-              		<input type="Radio" name="maleorfemale value=" required>
-              		Male
-              		<input type="Radio" name="maleorfemale value=" required>
-              		Female </br> </br>
-
-              		<label for="age"><b>Age</b></label>
-              		<input type="number" placeholder="Enter Age" name="age" required> <br> <br>
-
-                  <label for="psw"><b>Password</b></label>
-                  <input type="password" placeholder="Enter Password" name="psw" required>
-
-                  <label for="psw-repeat"><b>Repeat Password</b></label>
-                  <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-                  <label>
-                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-                  </label>
-
-                  <p>By creating an account you agree to our <a href="pages/Terms&Privacy.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-                  <div class="clearfix">
-                    <button type="button" class="cancelbtn">Cancel</button>
-                    <button type="submit" class="signupbtn">Sign Up</button>
-                  </div>
-                </div>
-              </form>
-
-              <script>
-
-              var modal = document.getElementById('id02');
-
-              window.onclick = function(event){
-              	if (event.target == modal) {
-              		modal.style.display = "none";
-              	}
-              }
-              </script>
-            </ul>
-          </div>
-        </nav>
-      </header>
-    </div>
+    <nav id="navbar">
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/game.html">Play</a></li>
+        </ul>
+      </div>
+    </nav>
 
     <!--- Main Content --->
     <div class="container">
@@ -132,43 +32,22 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       <br>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p id="fyld">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <!--- footer --->
-    <footer id="footer">
-      <div id="block1">
-        <h3>Heading</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <footer class="footer">
+      <div class="container">
+
+        <ul class="bottom-nav">
+          <li><a href="#">Contact Form</a></li>
+          <li><a href="#">Submit a Game or Video</a></li>
+          <li><a href="#">Games for Your Website</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+        <p id="copyright">&copy; 2019 SoMedia</p>
       </div>
-
-      <div id="block2">
-        <div id="footerList">
-          <h2>List items</h2>
-          <ul>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-          </ul>
-        </div>
-     </div>
-
-      <div id="block2">
-        <div id="footerList">
-          <h2>List items</h2>
-          <ul>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-            <li><a href="#">Item</a></li>
-          </ul>
-        </div>
-     </div>
-     <br>
-     <p id="copyright">&copy; 2019 SoMedia</p>
     </footer>
   </body>
 </html>
