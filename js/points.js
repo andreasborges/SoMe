@@ -1,4 +1,8 @@
-<!--Copyright SoMedia OSAR, Niels Brock-->
+
+//  Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+//
+
 /**
  * Global object containing all verticies for the game graphics,
  * see. polygondraw.html

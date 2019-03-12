@@ -1,4 +1,8 @@
-<!--Copyright SoMedia OSAR, Niels Brock-->
+
+//  Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+//
+
 /**
  * Canvas class, meant to make life easier by abstracting out
  * rendering and animation code

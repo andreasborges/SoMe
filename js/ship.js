@@ -1,4 +1,8 @@
-<!--Copyright SoMedia OSAR, Niels Brock-->
+
+//  Created by SoMedia OSAR on 12/03/2019.
+//  Copyright © 2019 SoMedia OSAR. All rights reserved.
+//
+
 /**
  * Ship class, extends Polygon see polygon.js
  */
