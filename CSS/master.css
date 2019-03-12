@@ -98,9 +98,9 @@ body{
   margin: 2em;
 }
 
-.box.no-background{
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  box-shadow: none !important;
-  background: #f1f1f1 !important;
+.box.no-background {
+-webkit-box-shadow: none !important;
+-moz-box-shadow: none !important;
+box-shadow: none !important;
+background: #f1f1f1 !important;
 }
