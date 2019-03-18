@@ -94,3 +94,30 @@ body{
 .container div{
   margin: 2em;
 }
+
+.navcontainer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#navbar{
+  background-color: rgb(19, 140, 190);
+  color: rgb(204, 0, 0);
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color: rgb(204, 0, 0);
+  text-shadow: 2px 2px 4px #389ebe;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
