@@ -1,42 +1,53 @@
-/*Created by SoMedia OSAR on 12/03/2019.
-//  Copyright © 2019 SoMedia OSAR. All rights reserved.
-*/
-
 body{
-  background-color: rgb(19, 140, 190);
-  color: #000;
-  font-family: Aharoni, Verdana, sans-serif;
+  background-color: rgb(27, 3, 133);
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
+#header a{
+  color: rgb(192, 208, 0)
+}
 .container{
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
-
-.container div{
-  margin: 2em;
-}
-
-.navcontainer {
   width: 80%;
   margin: auto;
   overflow: hidden;
 }
-
-#logo {
-  width: 90px;
-  height: 90px;
-  padding: 0;
+header img{
+  text-align: left;
   margin: 0;
+  position: relative;
+  top: 40px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header a{
+  text-align: left;
+  font-family: 'Audiowide';
+  font-size: 25px;
+  margin: 0;
+  position: relative;
+  top: -25px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#logo{
+  width: 300px;
+  height: 75px;
+}
+#main-header{
+  background-color: cadetblue;
+  color: #fff
 }
 
-#header a{
-  color: inherit;
-  text-decoration: none;
+#navbar{
+  background-color: #333;
+  color: rgb(204, 0, 0);
 }
 
 #navbar ul{
@@ -49,7 +60,8 @@ body{
 }
 
 #navbar a{
-  color: inherit;
+  color: rgb(204, 0, 0);
+  text-shadow: 2px 2px 4px #389ebe;
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
@@ -58,7 +70,7 @@ body{
 #showcase{
   background-image: url();
   background-position: center right;
-  min-height: 200px;
+  min-height: 150px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -71,89 +83,79 @@ body{
   padding-top: 30px;
 }
 
-
-.topbar{
-  background: #
-  padding: 0;
-  margin: 0;
+#main{
+  float: right;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
 }
 
-.item-box{
-  border: 3px solid #000;
-  border-radius: 3px;
+#sidebar{
+  float: left;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: left;
 }
 
-.footer{
-  background-color: #fff;
+#main-footer{
+  background: #333;
+  padding: 10px 0;
   width: 100%;
-  padding: 15px;
-  margin-top: 300px;
+  margin-top: 40px;
 }
-
-.footer ul.bottom-nav{
+#main-footer ul{
   display: table;
   float: left;
-  float: bottom;
   margin: 5px 0;
   padding: 9px 0 4px;
   width: 70%;
 }
-
-.footer li{
+#main-footer li{
   display: inline;
   padding: 0 5px;
 }
-
-.footer ul{
-  margin-top: 0;
-  margin-bottom: 10px;
-  padding: 0;
-  list-style: none;
-}
-
-.footer a{
+#main-footer a{
   text-decoration: none;
-  color: #333;
-  font-size: 12px;
+  font-size: 16px;
+  color: white;
+  margin-left: 20px;
+}
+#main-footer-copyright {
+  font-size: 16px;
+  float: right;
+  margin-right: 20px;
 }
 
-.footer p{
-  text-align: right;
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
 }
 
-#copyright{
-  font-size: 10px;
-}
-
-#fyld{
-  margin-bottom: 150px;
-}
-
-#navbar{
-  background-color: rgb(19, 140, 190);
-  color: rgb(204, 0, 0);
+.LinearGradient {
+   background: #40FF00;
+   background: -webkit-linear-gradient(left, #40FF00, blue);
+   background: -o-linear-gradient(right, #40FF00, blue);
+   background: -moz-linear-gradient(right, #40FF00, blue);
+   background: linear-gradient(to right, #40FF00, blue);
+   float: down;
+   color: #fff;
+   width: 110%;
+   padding: 20px;
+   box-sizing: border-box;
 }
 
 #navbar ul{
   padding: 0;
   list-style: none;
-}
-
-#navbar li{
-  display: inline;
-}
-
-#navbar a{
-  color: rgb(204, 0, 0);
-  text-shadow: 2px 2px 4px rgb(204, 0, 0);
-  text-decoration: none;
-  font-size: 18px;
-  padding-right: 15px;
-
-#mainfooter {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+  align: center;
+  vertical-align: center;
 }
