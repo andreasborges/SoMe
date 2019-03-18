@@ -11,6 +11,29 @@ body{
   margin: 0;
 }
 
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container div{
+  margin: 2em;
+}
+
+.navcontainer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#logo {
+  width: 90px;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+}
+
 #header a{
   color: inherit;
   text-decoration: none;
@@ -32,8 +55,27 @@ body{
   padding-right: 15px;
 }
 
+#showcase{
+  background-image: url();
+  background-position: center right;
+  min-height: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#showcase h2{
+  color: lightblue;
+  text-shadow: 2px 2px 4px #389ebe;
+  font-size: 50px;
+  line-height: 1.6em;
+  padding-top: 30px;
+}
+
+
 .topbar{
   background: #
+  padding: 0;
+  margin: 0;
 }
 
 .item-box{
@@ -43,13 +85,15 @@ body{
 
 .footer{
   background-color: #fff;
-  padding: 10px 0;
   width: 100%;
+  padding: 15px;
+  margin-top: 300px;
 }
 
 .footer ul.bottom-nav{
   display: table;
   float: left;
+  float: bottom;
   margin: 5px 0;
   padding: 9px 0 4px;
   width: 70%;
@@ -83,22 +127,6 @@ body{
 
 #fyld{
   margin-bottom: 150px;
-}
-
-.container{
-  width: 90%;
-  margin: auto;
-  overflow: hidden;
-}
-
-.container div{
-  margin: 2em;
-}
-
-.navcontainer {
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
 }
 
 #navbar{
