@@ -149,3 +149,11 @@ body{
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
+
+#mainfooter {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
