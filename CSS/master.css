@@ -117,7 +117,7 @@ body{
 
 #navbar a{
   color: rgb(204, 0, 0);
-  text-shadow: 2px 2px 4px #389ebe;
+  text-shadow: 2px 2px 4px rgb(204, 0, 0);
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
