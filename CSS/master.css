@@ -36,6 +36,11 @@ header a{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+#SM-icons{
+  float: right;
+}
+
 #logo{
   width: 300px;
   height: 75px;
