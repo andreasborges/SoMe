@@ -17,7 +17,7 @@ var EndState = State.extend({
 		this._super(game); // call super constructor
 
 		this.hasEnterName = false; // internal stage flag
-		this.nick = "no name";
+		this.nick = "No name entered";
 		this.score = game.stateVars.score;
 
 		// arbitrary hiscore array
@@ -97,12 +97,12 @@ var EndState = State.extend({
 				ctx.vectorText(hs[0], 2, 200, 200+25*i);
 				ctx.vectorText(hs[1], 2, 320, 200+25*i, 10);
 			}
-			ctx.vectorText("press space to continue", 1, 200, 350);
+			ctx.vectorText("Press space to start a new game", 1, 200, 350);
 
 		} else {
 
 			ctx.vectorText("Thank you for playing", 4, null, 100);
-			ctx.vectorText("nick", 2, null, 180);
+			ctx.vectorText("Your Nickname", 2, null, 180);
 			ctx.vectorText(this.nick, 3, null, 220);
 			ctx.vectorText(this.score, 3, null, 300);
 		}

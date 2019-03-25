@@ -78,7 +78,7 @@ var MenuState = State.extend({
 		}
 
 		// draw title text
-		ctx.vectorText("ASTEROIDS", 6, null, 180);
-		ctx.vectorText("push space to play", 2, null, 260);
+		ctx.vectorText("PIZZAWAR", 6, null, 180);
+		ctx.vectorText("Push space to start the game", 2, null, 260);
 	}
 });
