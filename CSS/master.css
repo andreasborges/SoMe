@@ -6,7 +6,7 @@ body{
   line-height: 1.6em;
   margin: 0;
   height: 100%;
-  overflow: scroll;
+  overflow: auto;
 }
 
 a{
@@ -19,7 +19,7 @@ a{
 .container{
   width: 80%;
   margin: auto;
-  overflow: hidden;
+  overflow: auto;
 }
 
 header img{
@@ -117,7 +117,7 @@ header a{
   background: #333;
   padding: 10px 0;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 40px;
 }
 #main-footer ul{
   display: table;
