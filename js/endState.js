@@ -26,6 +26,7 @@ var EndState = State.extend({
 			["Andreas", 11842],
 			["Google", 9928],
 			["Oiver Thom.", 9030]
+			["Lukas", 8330]
 			["Cecilia", 1300]
 		];
 
