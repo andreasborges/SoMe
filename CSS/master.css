@@ -103,6 +103,13 @@ header a{
   box-sizing: border-box;
 }
 
+#maincam{
+  position: absolute;
+  width: 70%;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
 #sidebar{
   float: left;
   width: 30%;
@@ -177,4 +184,10 @@ header a{
   position: absolute;
   top: 300px;
   left: 500px;
+}
+
+#campaigns{
+  width: 320px;
+  height: 320px;
+  border: 3px solid grey;
 }
