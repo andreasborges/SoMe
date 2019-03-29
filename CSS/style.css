@@ -9,7 +9,8 @@
 
 /* Center canvas and stuff */
 canvas {
-	background-color: rgb();
+	background-color: rgb(37, 3, 132);
+	border: 3px solid black;
 	display: block;
 	position: relative;
 	margin: auto;
