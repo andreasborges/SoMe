@@ -24,7 +24,7 @@ var EndState = State.extend({
 		// TODO: implement real hiscore saving with PHP or something
 		this.hisores = [
 			["Lukas", 15830],
-			["Andreas", 11842],
+			["Andreas", 13684],
 			["Google", 9928],
 			["Oiver Thom.", 9030],
 			["Cecilia", 1300],
