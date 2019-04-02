@@ -36,7 +36,7 @@ var Game = Class.extend({
 
 		// set stroke style to white, since canvas has black
 		// bacground
-		this.canvas.ctx.strokeStyle = "#fff";
+		this.canvas.ctx.strokeStyle = "orange";
 
 		// declate variables used for managing states
 		this.currentState = null;

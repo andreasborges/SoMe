@@ -46,8 +46,7 @@ var Asteroid = Polygon.extend({
 	},
 
 	/**
-	 * Useful point in polygon check, taken from:
-	 * http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
+	 * Useful point in polygon check
 	 *
 	 * @param  {number}  x test x coordinate
 	 * @param  {number}  y test y coordinate

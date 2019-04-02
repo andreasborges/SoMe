@@ -22,7 +22,7 @@ var Polygon = Class.extend({
 	/**
 	 * Rotate the polygon clockwise
 	 *
-	 * @param  {number} theta angle to ratate with
+	 * @param  {number} theta angle to rotate with
 	 */
 	rotate: function(theta) {
 		// simplifying computition of 2x2 matrix
