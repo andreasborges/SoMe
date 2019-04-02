@@ -27,10 +27,10 @@ var Bullet = Class.extend({
 
 		this.shallRemove = false;
 
-		// set velocity according to angle param
+		// skudets hastighed
 		this.vel = {
-			x: 5*Math.cos(angle),
-			y: 5*Math.sin(angle)
+			x: 8*Math.cos(angle),
+			y: 8*Math.sin(angle)
 		}
 	},
 
