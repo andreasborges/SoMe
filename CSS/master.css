@@ -196,4 +196,10 @@ header a{
 
 #campaign-text{
   text-align: center;
+  color: #fff
+}
+
+#campaign-text a{
+  color: #f4f4f4;
+  text-decoration: underline;
 }
