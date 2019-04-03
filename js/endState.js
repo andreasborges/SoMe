@@ -103,7 +103,7 @@ var EndState = State.extend({
 
 		} else {
 
-			ctx.vectorText("Thank's for plaing'", 4, null, 100);
+			ctx.vectorText("Thank you for playing", 4, null, 100);
 			ctx.vectorText("Your Nickname", 2, null, 180);
 			ctx.vectorText(this.nick, 3, null, 220);
 			ctx.vectorText(this.score, 3, null, 300);
